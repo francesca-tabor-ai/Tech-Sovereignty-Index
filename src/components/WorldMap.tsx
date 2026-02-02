@@ -20,7 +20,8 @@ const countryCodeMap: Record<string, string> = {
   '040': 'AUT', '056': 'BEL', '208': 'DNK', '246': 'FIN', '300': 'GRC',
   '372': 'IRL', '380': 'ITA', '442': 'LUX', '620': 'PRT', '724': 'ESP',
   '752': 'SWE', '203': 'CZE', '348': 'HUN', '233': 'EST', '428': 'LVA',
-  '440': 'LTU', '705': 'SVN', '703': 'SVK'
+  '440': 'LTU', '705': 'SVN', '703': 'SVK', '642': 'ROU', '100': 'BGR',
+  '191': 'HRV', '196': 'CYP', '470': 'MLT'
 }
 
 // EU member states for aggregate display

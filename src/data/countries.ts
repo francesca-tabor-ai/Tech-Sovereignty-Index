@@ -683,6 +683,385 @@ export const countriesData: CountryData[] = [
     { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 92, description: 'All chip imports' }
   ]),
 
+  // Italy
+  createCountryData('ita', 'Italy', 'ITA', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 42,
+      criticalMineralsAccess: 18,
+      urbanMiningCapacity: 52
+    },
+    computeInfrastructure: {
+      chipIndependence: 12,
+      cloudAutonomy: 15,
+      connectivityControl: 68
+    },
+    cognitiveLayer: {
+      modelSovereignty: 28,
+      workforceCapability: 70
+    },
+    jurisdictionalShield: {
+      legalImmunization: 80,
+      enforcementCapability: 65
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 88, description: 'Cloud infrastructure dominance' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 92, description: 'Semiconductor imports' },
+    { country: 'China', countryCode: 'CHN', sector: 'minerals', dependencyLevel: 70, description: 'Rare earth dependency' }
+  ]),
+
+  // Spain
+  createCountryData('esp', 'Spain', 'ESP', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 58,
+      criticalMineralsAccess: 25,
+      urbanMiningCapacity: 48
+    },
+    computeInfrastructure: {
+      chipIndependence: 8,
+      cloudAutonomy: 15,
+      connectivityControl: 65
+    },
+    cognitiveLayer: {
+      modelSovereignty: 22,
+      workforceCapability: 68
+    },
+    jurisdictionalShield: {
+      legalImmunization: 78,
+      enforcementCapability: 62
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 90, description: 'Hyperscaler dependency' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 94, description: 'All chip imports' },
+    { country: 'United States', countryCode: 'USA', sector: 'ai', dependencyLevel: 85, description: 'AI model dependency' }
+  ]),
+
+  // Sweden
+  createCountryData('swe', 'Sweden', 'SWE', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 72,
+      criticalMineralsAccess: 35,
+      urbanMiningCapacity: 65
+    },
+    computeInfrastructure: {
+      chipIndependence: 15,
+      cloudAutonomy: 22,
+      connectivityControl: 78
+    },
+    cognitiveLayer: {
+      modelSovereignty: 32,
+      workforceCapability: 82
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 70
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 82, description: 'Cloud services' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 88, description: 'Semiconductor imports' }
+  ]),
+
+  // Belgium
+  createCountryData('bel', 'Belgium', 'BEL', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 45,
+      criticalMineralsAccess: 15,
+      urbanMiningCapacity: 58
+    },
+    computeInfrastructure: {
+      chipIndependence: 25,
+      cloudAutonomy: 18,
+      connectivityControl: 75
+    },
+    cognitiveLayer: {
+      modelSovereignty: 28,
+      workforceCapability: 78
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 68
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 85, description: 'Cloud infrastructure' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 85, description: 'Chip imports (IMEC research hub)' }
+  ]),
+
+  // Austria
+  createCountryData('aut', 'Austria', 'AUT', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 68,
+      criticalMineralsAccess: 18,
+      urbanMiningCapacity: 55
+    },
+    computeInfrastructure: {
+      chipIndependence: 12,
+      cloudAutonomy: 20,
+      connectivityControl: 70
+    },
+    cognitiveLayer: {
+      modelSovereignty: 25,
+      workforceCapability: 76
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 68
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 85, description: 'Cloud dependency' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 90, description: 'Semiconductor imports' }
+  ]),
+
+  // Denmark
+  createCountryData('dnk', 'Denmark', 'DNK', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 75,
+      criticalMineralsAccess: 12,
+      urbanMiningCapacity: 60
+    },
+    computeInfrastructure: {
+      chipIndependence: 8,
+      cloudAutonomy: 18,
+      connectivityControl: 78
+    },
+    cognitiveLayer: {
+      modelSovereignty: 28,
+      workforceCapability: 82
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 72
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 85, description: 'Cloud services' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 92, description: 'All chip imports' }
+  ]),
+
+  // Finland
+  createCountryData('fin', 'Finland', 'FIN', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 70,
+      criticalMineralsAccess: 28,
+      urbanMiningCapacity: 58
+    },
+    computeInfrastructure: {
+      chipIndependence: 15,
+      cloudAutonomy: 22,
+      connectivityControl: 82
+    },
+    cognitiveLayer: {
+      modelSovereignty: 35,
+      workforceCapability: 85
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 72
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 80, description: 'Cloud infrastructure' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 85, description: 'Semiconductor imports' }
+  ]),
+
+  // Ireland
+  createCountryData('irl', 'Ireland', 'IRL', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 42,
+      criticalMineralsAccess: 10,
+      urbanMiningCapacity: 45
+    },
+    computeInfrastructure: {
+      chipIndependence: 45,
+      cloudAutonomy: 12,
+      connectivityControl: 72
+    },
+    cognitiveLayer: {
+      modelSovereignty: 25,
+      workforceCapability: 80
+    },
+    jurisdictionalShield: {
+      legalImmunization: 75,
+      enforcementCapability: 58
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 95, description: 'US tech company HQ concentration' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 75, description: 'Chip imports (Intel fab presence)' },
+    { country: 'United States', countryCode: 'USA', sector: 'ai', dependencyLevel: 90, description: 'AI services via US tech' }
+  ]),
+
+  // Portugal
+  createCountryData('prt', 'Portugal', 'PRT', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 62,
+      criticalMineralsAccess: 22,
+      urbanMiningCapacity: 42
+    },
+    computeInfrastructure: {
+      chipIndependence: 5,
+      cloudAutonomy: 12,
+      connectivityControl: 65
+    },
+    cognitiveLayer: {
+      modelSovereignty: 18,
+      workforceCapability: 70
+    },
+    jurisdictionalShield: {
+      legalImmunization: 78,
+      enforcementCapability: 60
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 90, description: 'Cloud dominance' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 95, description: 'All chip imports' }
+  ]),
+
+  // Greece
+  createCountryData('grc', 'Greece', 'GRC', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 48,
+      criticalMineralsAccess: 15,
+      urbanMiningCapacity: 35
+    },
+    computeInfrastructure: {
+      chipIndependence: 3,
+      cloudAutonomy: 10,
+      connectivityControl: 58
+    },
+    cognitiveLayer: {
+      modelSovereignty: 15,
+      workforceCapability: 68
+    },
+    jurisdictionalShield: {
+      legalImmunization: 78,
+      enforcementCapability: 55
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 92, description: 'Cloud infrastructure' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 96, description: 'All chip imports' }
+  ]),
+
+  // Czech Republic
+  createCountryData('cze', 'Czech Republic', 'CZE', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 58,
+      criticalMineralsAccess: 18,
+      urbanMiningCapacity: 48
+    },
+    computeInfrastructure: {
+      chipIndependence: 10,
+      cloudAutonomy: 15,
+      connectivityControl: 62
+    },
+    cognitiveLayer: {
+      modelSovereignty: 22,
+      workforceCapability: 75
+    },
+    jurisdictionalShield: {
+      legalImmunization: 78,
+      enforcementCapability: 62
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 88, description: 'Cloud dependency' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 90, description: 'Semiconductor imports' }
+  ]),
+
+  // Romania
+  createCountryData('rou', 'Romania', 'ROU', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 55,
+      criticalMineralsAccess: 20,
+      urbanMiningCapacity: 35
+    },
+    computeInfrastructure: {
+      chipIndependence: 5,
+      cloudAutonomy: 12,
+      connectivityControl: 55
+    },
+    cognitiveLayer: {
+      modelSovereignty: 18,
+      workforceCapability: 72
+    },
+    jurisdictionalShield: {
+      legalImmunization: 75,
+      enforcementCapability: 58
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 90, description: 'Cloud dominance' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 94, description: 'All chip imports' }
+  ]),
+
+  // Hungary
+  createCountryData('hun', 'Hungary', 'HUN', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 45,
+      criticalMineralsAccess: 15,
+      urbanMiningCapacity: 40
+    },
+    computeInfrastructure: {
+      chipIndependence: 8,
+      cloudAutonomy: 12,
+      connectivityControl: 58
+    },
+    cognitiveLayer: {
+      modelSovereignty: 18,
+      workforceCapability: 72
+    },
+    jurisdictionalShield: {
+      legalImmunization: 72,
+      enforcementCapability: 65
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 88, description: 'Cloud infrastructure' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 92, description: 'Semiconductor imports' },
+    { country: 'China', countryCode: 'CHN', sector: 'chips', dependencyLevel: 45, description: 'Battery manufacturing investment' }
+  ]),
+
+  // Estonia
+  createCountryData('est', 'Estonia', 'EST', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 48,
+      criticalMineralsAccess: 12,
+      urbanMiningCapacity: 45
+    },
+    computeInfrastructure: {
+      chipIndependence: 5,
+      cloudAutonomy: 25,
+      connectivityControl: 72
+    },
+    cognitiveLayer: {
+      modelSovereignty: 28,
+      workforceCapability: 82
+    },
+    jurisdictionalShield: {
+      legalImmunization: 82,
+      enforcementCapability: 75
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 78, description: 'Cloud services' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 95, description: 'All chip imports' }
+  ]),
+
+  // Luxembourg
+  createCountryData('lux', 'Luxembourg', 'LUX', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 25,
+      criticalMineralsAccess: 8,
+      urbanMiningCapacity: 52
+    },
+    computeInfrastructure: {
+      chipIndependence: 5,
+      cloudAutonomy: 35,
+      connectivityControl: 78
+    },
+    cognitiveLayer: {
+      modelSovereignty: 22,
+      workforceCapability: 80
+    },
+    jurisdictionalShield: {
+      legalImmunization: 85,
+      enforcementCapability: 72
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 75, description: 'Cloud infrastructure (data center hub)' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 95, description: 'All chip imports' }
+  ]),
+
   // Nigeria
   createCountryData('nga', 'Nigeria', 'NGA', 'Africa', {
     materialFoundation: {
