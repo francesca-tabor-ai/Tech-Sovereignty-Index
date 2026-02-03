@@ -12,17 +12,33 @@ interface WorldMapProps {
 
 // Country code mapping from numeric to alpha-3
 const countryCodeMap: Record<string, string> = {
-  '840': 'USA', '156': 'CHN', '276': 'DEU', '250': 'FRA', '826': 'GBR',
-  '392': 'JPN', '410': 'KOR', '158': 'TWN', '356': 'IND', '076': 'BRA',
-  '036': 'AUS', '124': 'CAN', '643': 'RUS', '376': 'ISR', '702': 'SGP',
-  '682': 'SAU', '784': 'ARE', '360': 'IDN', '484': 'MEX', '710': 'ZAF',
-  '528': 'NLD', '756': 'CHE', '704': 'VNM', '616': 'POL', '566': 'NGA',
+  // North America & Caribbean
+  '840': 'USA', '124': 'CAN', '484': 'MEX', '192': 'CUB', '214': 'DOM',
+  '304': 'GRL',
+  // Central America
+  '591': 'PAN', '188': 'CRI', '320': 'GTM', '340': 'HND', '222': 'SLV', '558': 'NIC',
+  // South America
+  '076': 'BRA', '032': 'ARG', '152': 'CHL', '170': 'COL', '604': 'PER',
+  '862': 'VEN', '218': 'ECU', '858': 'URY', '600': 'PRY', '068': 'BOL',
+  // Europe
+  '276': 'DEU', '250': 'FRA', '826': 'GBR', '380': 'ITA', '724': 'ESP',
+  '528': 'NLD', '756': 'CHE', '616': 'POL', '578': 'NOR', '752': 'SWE',
   '040': 'AUT', '056': 'BEL', '208': 'DNK', '246': 'FIN', '300': 'GRC',
-  '372': 'IRL', '380': 'ITA', '442': 'LUX', '620': 'PRT', '724': 'ESP',
-  '752': 'SWE', '203': 'CZE', '348': 'HUN', '233': 'EST', '428': 'LVA',
-  '440': 'LTU', '705': 'SVN', '703': 'SVK', '642': 'ROU', '100': 'BGR',
-  '191': 'HRV', '196': 'CYP', '470': 'MLT',
-  '578': 'NOR', '554': 'NZL'
+  '372': 'IRL', '442': 'LUX', '620': 'PRT', '203': 'CZE', '348': 'HUN',
+  '233': 'EST', '428': 'LVA', '440': 'LTU', '705': 'SVN', '703': 'SVK',
+  '642': 'ROU', '100': 'BGR', '191': 'HRV', '196': 'CYP', '470': 'MLT',
+  '643': 'RUS',
+  // Asia
+  '156': 'CHN', '392': 'JPN', '410': 'KOR', '158': 'TWN', '356': 'IND',
+  '376': 'ISR', '702': 'SGP', '682': 'SAU', '784': 'ARE', '360': 'IDN',
+  '704': 'VNM',
+  // Oceania
+  '036': 'AUS', '554': 'NZL',
+  // Africa
+  '566': 'NGA', '710': 'ZAF', '818': 'EGY', '404': 'KEN', '231': 'ETH',
+  '504': 'MAR', '012': 'DZA', '788': 'TUN', '288': 'GHA', '834': 'TZA',
+  '180': 'COD', '024': 'AGO', '686': 'SEN', '384': 'CIV', '120': 'CMR',
+  '800': 'UGA', '716': 'ZWE', '508': 'MOZ', '646': 'RWA'
 }
 
 // EU member states for aggregate display
