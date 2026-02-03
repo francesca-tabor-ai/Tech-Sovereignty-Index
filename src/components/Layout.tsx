@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Globe, Zap, ShoppingCart, BookOpen, BarChart3 } from 'lucide-react'
+import { Globe, Zap, ShoppingCart, BookOpen, BarChart3, MessageCircle } from 'lucide-react'
 
 interface LayoutProps {
   children: ReactNode
@@ -96,6 +96,35 @@ export default function Layout({ children }: LayoutProps) {
               Open-source scoring algorithm. Data updated quarterly.
             </div>
             <div className="flex items-center gap-6">
+              <a
+                href={`mailto:francesca.tabor.politics@gmail.com?subject=${encodeURIComponent('Sharing a thought about the platform')}&body=${encodeURIComponent(`Hi Francesca,
+
+I wanted to share a thought about the platform.
+
+I was trying to...
+
+Something felt confusing when...
+
+I really liked...
+
+I wish I could...
+
+(Optional)
+What I was doing when this came up:
+
+
+Thanks!`)}`}
+                className="flex items-center gap-2 text-sm"
+                style={{
+                  textDecoration: 'none',
+                  color: 'var(--color-purple-600)',
+                  fontWeight: 500
+                }}
+                title="This opens your email app so you can send us a note directly"
+              >
+                <MessageCircle size={14} />
+                Share your thoughts
+              </a>
               <a href="#" className="text-sm text-muted" style={{ textDecoration: 'none' }}>
                 API Access
               </a>
