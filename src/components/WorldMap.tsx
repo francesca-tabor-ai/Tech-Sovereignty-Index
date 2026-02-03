@@ -21,7 +21,8 @@ const countryCodeMap: Record<string, string> = {
   '372': 'IRL', '380': 'ITA', '442': 'LUX', '620': 'PRT', '724': 'ESP',
   '752': 'SWE', '203': 'CZE', '348': 'HUN', '233': 'EST', '428': 'LVA',
   '440': 'LTU', '705': 'SVN', '703': 'SVK', '642': 'ROU', '100': 'BGR',
-  '191': 'HRV', '196': 'CYP', '470': 'MLT'
+  '191': 'HRV', '196': 'CYP', '470': 'MLT',
+  '578': 'NOR', '554': 'NZL'
 }
 
 // EU member states for aggregate display

@@ -1062,6 +1062,58 @@ export const countriesData: CountryData[] = [
     { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 95, description: 'All chip imports' }
   ]),
 
+  // Norway
+  createCountryData('nor', 'Norway', 'NOR', 'Europe', {
+    materialFoundation: {
+      energySovereignty: 92,
+      criticalMineralsAccess: 45,
+      urbanMiningCapacity: 62
+    },
+    computeInfrastructure: {
+      chipIndependence: 8,
+      cloudAutonomy: 28,
+      connectivityControl: 82
+    },
+    cognitiveLayer: {
+      modelSovereignty: 35,
+      workforceCapability: 85
+    },
+    jurisdictionalShield: {
+      legalImmunization: 78,
+      enforcementCapability: 75
+    }
+  }, [
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 75, description: 'Cloud services' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 88, description: 'Semiconductor imports' }
+  ]),
+
+  // New Zealand
+  createCountryData('nzl', 'New Zealand', 'NZL', 'Oceania', {
+    materialFoundation: {
+      energySovereignty: 82,
+      criticalMineralsAccess: 18,
+      urbanMiningCapacity: 48
+    },
+    computeInfrastructure: {
+      chipIndependence: 2,
+      cloudAutonomy: 15,
+      connectivityControl: 68
+    },
+    cognitiveLayer: {
+      modelSovereignty: 22,
+      workforceCapability: 78
+    },
+    jurisdictionalShield: {
+      legalImmunization: 72,
+      enforcementCapability: 68
+    }
+  }, [
+    { country: 'Australia', countryCode: 'AUS', sector: 'cloud', dependencyLevel: 45, description: 'Regional cloud infrastructure' },
+    { country: 'United States', countryCode: 'USA', sector: 'cloud', dependencyLevel: 70, description: 'US hyperscaler services' },
+    { country: 'Taiwan', countryCode: 'TWN', sector: 'chips', dependencyLevel: 92, description: 'All chip imports' },
+    { country: 'United States', countryCode: 'USA', sector: 'ai', dependencyLevel: 85, description: 'AI model dependency' }
+  ]),
+
   // Nigeria
   createCountryData('nga', 'Nigeria', 'NGA', 'Africa', {
     materialFoundation: {
