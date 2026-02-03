@@ -5,6 +5,7 @@ import CountryDetail from './pages/CountryDetail'
 import Simulator from './pages/Simulator'
 import Procurement from './pages/Procurement'
 import Methodology from './pages/Methodology'
+import Data from './pages/Data'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/simulator" element={<Simulator />} />
         <Route path="/procurement" element={<Procurement />} />
         <Route path="/methodology" element={<Methodology />} />
+        <Route path="/data" element={<Data />} />
       </Routes>
     </Layout>
   )

@@ -125,14 +125,14 @@ Thanks!`)}`}
                 <MessageCircle size={14} />
                 Share your thoughts
               </a>
+              <Link to="/data" className="text-sm text-muted" style={{ textDecoration: 'none' }}>
+                Data
+              </Link>
               <a href="#" className="text-sm text-muted" style={{ textDecoration: 'none' }}>
                 API Access
               </a>
               <a href="#" className="text-sm text-muted" style={{ textDecoration: 'none' }}>
                 GitHub
-              </a>
-              <a href="#" className="text-sm text-muted" style={{ textDecoration: 'none' }}>
-                Data Sources
               </a>
             </div>
           </div>
